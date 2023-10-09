@@ -7,12 +7,13 @@ public class playercontrol : MonoBehaviour
 
 {
     public float speed = 10f;
+
     public Rigidbody2D rb;
 
     // Start is called before the first frame update
     void Start()
     {
- 
+        
     }
 
     // Update is called once per frame
@@ -28,7 +29,8 @@ public class playercontrol : MonoBehaviour
             {
                 SceneManager.LoadScene("Level1");
             }
-        }    }
+        }
+    }
 
     private void FixedUpdate()
     {
